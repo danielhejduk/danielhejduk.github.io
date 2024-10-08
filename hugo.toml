@@ -1,0 +1,51 @@
+baseURL = 'https://danielhejduk.github.io/'
+languageCode = 'en-us'
+title = 'My boring website'
+
+theme = 'terminal'
+
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  
+  showMenuItems = 2
+
+  showLanguageSelector = false
+
+  fullWidthTheme = true
+
+  centerTheme = false
+
+  showLastUpdated = false
+
+  color = "red"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+
+    [languages.en.params]
+      owner = "Daniel Hejduk"
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "Daniel Hejduk"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "youtube"
+          name = "Youtube"
+          url = "/youtube"
