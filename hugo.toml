@@ -4,8 +4,6 @@ title = 'My boring website'
 
 theme = 'terminal'
 
-paginate = 5
-
 [params]
   contentTypeName = "posts"
   
